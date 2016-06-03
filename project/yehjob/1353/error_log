@@ -1,0 +1,52 @@
+[25-Aug-2015 07:12:39 UTC] PHP Fatal error:  Call to undefined function Facebook\HttpClients\mb_substr() in /home/easy1/public_html/forum/1353/src/Facebook/HttpClients/FacebookCurlHttpClient.php on line 254
+[25-Aug-2015 07:15:58 UTC] PHP Fatal error:  Call to undefined method Facebook\HttpClients\FacebookCurlHttpClient::extractResponseHeadersAndBody() in /home/easy1/public_html/forum/1353/src/Facebook/HttpClients/FacebookCurlHttpClient.php on line 154
+[25-Aug-2015 07:16:39 UTC] PHP Fatal error:  Call to undefined function Facebook\HttpClients\mb_substr() in /home/easy1/public_html/forum/1353/src/Facebook/HttpClients/FacebookCurlHttpClient.php on line 255
+[25-Aug-2015 11:23:32 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/easy1/public_html/forum/1353/fbconfig.php on line 81
+[25-Aug-2015 11:24:31 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/easy1/public_html/forum/1353/fbconfig.php on line 81
+[08-Dec-2015 06:44:08 UTC] PHP Warning:  include(../inlcude/config.php): failed to open stream: No such file or directory in /home/yehjob/public_html/1353/fbconfig.php on line 2
+[08-Dec-2015 06:44:08 UTC] PHP Warning:  include(): Failed opening '../inlcude/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/yehjob/public_html/1353/fbconfig.php on line 2
+[08-Dec-2015 06:44:08 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookSDKException' with message 'Session not active, could not store state.' in /home/yehjob/public_html/1353/src/Facebook/FacebookRedirectLoginHelper.php:227
+Stack trace:
+#0 /home/yehjob/public_html/1353/src/Facebook/FacebookRedirectLoginHelper.php(95): Facebook\FacebookRedirectLoginHelper->storeState('8b548418e05afc9...')
+#1 /home/yehjob/public_html/1353/fbconfig.php(52): Facebook\FacebookRedirectLoginHelper->getLoginUrl()
+#2 {main}
+  thrown in /home/yehjob/public_html/1353/src/Facebook/FacebookRedirectLoginHelper.php on line 227
+[08-Dec-2015 06:45:55 UTC] PHP Warning:  include(../inlcude/config.php): failed to open stream: No such file or directory in /home/yehjob/public_html/1353/fbconfig.php on line 2
+[08-Dec-2015 06:45:55 UTC] PHP Warning:  include(): Failed opening '../inlcude/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/yehjob/public_html/1353/fbconfig.php on line 2
+[08-Dec-2015 06:45:55 UTC] PHP Fatal error:  Class 'Database' not found in /home/yehjob/public_html/1353/fbconfig.php on line 3
+[08-Dec-2015 06:47:00 UTC] PHP Warning:  include(..inlcude/config.php): failed to open stream: No such file or directory in /home/yehjob/public_html/1353/fbconfig.php on line 2
+[08-Dec-2015 06:47:00 UTC] PHP Warning:  include(): Failed opening '..inlcude/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/yehjob/public_html/1353/fbconfig.php on line 2
+[08-Dec-2015 06:47:00 UTC] PHP Fatal error:  Class 'Database' not found in /home/yehjob/public_html/1353/fbconfig.php on line 3
+[08-Dec-2015 06:47:04 UTC] PHP Warning:  include(..inlcude/config.php): failed to open stream: No such file or directory in /home/yehjob/public_html/1353/fbconfig.php on line 2
+[08-Dec-2015 06:47:04 UTC] PHP Warning:  include(): Failed opening '..inlcude/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/yehjob/public_html/1353/fbconfig.php on line 2
+[08-Dec-2015 06:47:04 UTC] PHP Fatal error:  Class 'Database' not found in /home/yehjob/public_html/1353/fbconfig.php on line 3
+[08-Dec-2015 06:47:17 UTC] PHP Warning:  include(inlcude/config.php): failed to open stream: No such file or directory in /home/yehjob/public_html/1353/fbconfig.php on line 2
+[08-Dec-2015 06:47:17 UTC] PHP Warning:  include(): Failed opening 'inlcude/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/yehjob/public_html/1353/fbconfig.php on line 2
+[08-Dec-2015 06:47:17 UTC] PHP Fatal error:  Class 'Database' not found in /home/yehjob/public_html/1353/fbconfig.php on line 3
+[08-Dec-2015 06:48:23 UTC] PHP Warning:  include(inlcude/config.php): failed to open stream: No such file or directory in /home/yehjob/public_html/1353/fbconfig.php on line 2
+[08-Dec-2015 06:48:23 UTC] PHP Warning:  include(): Failed opening 'inlcude/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/yehjob/public_html/1353/fbconfig.php on line 2
+[08-Dec-2015 06:48:23 UTC] PHP Fatal error:  Class 'Database' not found in /home/yehjob/public_html/1353/fbconfig.php on line 3
+[08-Dec-2015 06:48:25 UTC] PHP Warning:  include(inlcude/config.php): failed to open stream: No such file or directory in /home/yehjob/public_html/1353/fbconfig.php on line 2
+[08-Dec-2015 06:48:25 UTC] PHP Warning:  include(): Failed opening 'inlcude/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/yehjob/public_html/1353/fbconfig.php on line 2
+[08-Dec-2015 06:48:25 UTC] PHP Fatal error:  Class 'Database' not found in /home/yehjob/public_html/1353/fbconfig.php on line 3
+[08-Dec-2015 06:48:41 UTC] PHP Fatal error:  Class 'Database' not found in /home/yehjob/public_html/1353/fbconfig.php on line 3
+[08-Dec-2015 06:49:06 UTC] PHP Warning:  include(inlcude/config.php): failed to open stream: No such file or directory in /home/yehjob/public_html/1353/fbconfig.php on line 2
+[08-Dec-2015 06:49:06 UTC] PHP Warning:  include(): Failed opening 'inlcude/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/yehjob/public_html/1353/fbconfig.php on line 2
+[08-Dec-2015 06:49:06 UTC] PHP Fatal error:  Class 'Database' not found in /home/yehjob/public_html/1353/fbconfig.php on line 3
+[08-Dec-2015 07:02:28 UTC] PHP Warning:  include(inlcude/config.php): failed to open stream: No such file or directory in /home/yehjob/public_html/1353/fbconfig.php on line 2
+[08-Dec-2015 07:02:28 UTC] PHP Warning:  include(): Failed opening 'inlcude/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/yehjob/public_html/1353/fbconfig.php on line 2
+[08-Dec-2015 07:02:28 UTC] PHP Fatal error:  Class 'Database' not found in /home/yehjob/public_html/1353/fbconfig.php on line 3
+[08-Dec-2015 07:03:09 UTC] PHP Warning:  include(inlcude/config.php): failed to open stream: No such file or directory in /home/yehjob/public_html/1353/fbconfig.php on line 2
+[08-Dec-2015 07:03:09 UTC] PHP Warning:  include(): Failed opening 'inlcude/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/yehjob/public_html/1353/fbconfig.php on line 2
+[08-Dec-2015 07:03:09 UTC] PHP Fatal error:  Class 'Database' not found in /home/yehjob/public_html/1353/fbconfig.php on line 3
+[08-Dec-2015 07:03:39 UTC] PHP Fatal error:  Uncaught exception 'Facebook\FacebookSDKException' with message 'Session not active, could not store state.' in /home/yehjob/public_html/1353/src/Facebook/FacebookRedirectLoginHelper.php:227
+Stack trace:
+#0 /home/yehjob/public_html/1353/src/Facebook/FacebookRedirectLoginHelper.php(95): Facebook\FacebookRedirectLoginHelper->storeState('4aeaee6845cab68...')
+#1 /home/yehjob/public_html/1353/fbconfig.php(52): Facebook\FacebookRedirectLoginHelper->getLoginUrl()
+#2 {main}
+  thrown in /home/yehjob/public_html/1353/src/Facebook/FacebookRedirectLoginHelper.php on line 227
+[08-Dec-2015 12:44:35 Asia/Calcutta] PHP Fatal error:  Call to a member function getProperty() on a non-object in /home/yehjob/public_html/1353/fbconfig.php on line 43
+[08-Dec-2015 07:20:17 UTC] PHP Warning:  include(inlcude/config.php): failed to open stream: No such file or directory in /home/yehjob/public_html/1353/fbconfig.php on line 2
+[08-Dec-2015 07:20:17 UTC] PHP Warning:  include(): Failed opening 'inlcude/config.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/yehjob/public_html/1353/fbconfig.php on line 2
+[08-Dec-2015 07:20:17 UTC] PHP Fatal error:  Class 'Database' not found in /home/yehjob/public_html/1353/fbconfig.php on line 3
+[08-Dec-2015 07:21:03 UTC] PHP Fatal error:  Class 'Database' not found in /home/yehjob/public_html/1353/fbconfig.php on line 3

@@ -1,0 +1,73 @@
+<?php
+include('include/config.php');
+$db = new Database();
+$last_id = $_POST['last_id'];
+$limit = 5; // default value
+if (isset($_POST['limit'])) 
+{
+	$limit = intval($_POST['limit']);
+}
+
+$sql="SELECT pj. *, re.*, po.position, ca.category_name, jt.job_type, qu.qualifications, sk.skills, lo.location FROM `tb_post_job` pj LEFT JOIN tb_qualifications qu ON pj.post_job_id = qu.post_job_id LEFT JOIN tb_skills sk ON pj.post_job_id = sk.post_job_id LEFT JOIN tb_location lo ON pj.post_job_id = lo.post_job_id LEFT JOIN  tb_recruiter re ON pj.recruiter_id = re.recruiter_id LEFT JOIN lk_tb_position po ON pj.position_id = po.position_id LEFT JOIN  lk_tb_category ca ON pj.category_id = ca.category_id LEFT JOIN  lk_tb_job_type jt ON pj.job_type_id = jt.job_type_id 
+WHERE pj.post_job_id < $last_id ORDER BY pj.post_job_id DESC LIMIT 0, $limit";
+
+$db->execute($sql);
+
+$result=$db->getResults();
+
+//$last_id = 0;//last job id was still 25
+
+foreach ($result as $post_job1) 
+{ 
+$last_id = $post_job1['post_job_id']; 
+?>
+							<div id="items" class="product_link">
+								<div class="col-xs-12 col-sm-3 product_link_img">
+									<?php if(!empty($post_job1['company_logo'])) { ?>
+									<img src="<?php echo REC_IMAGES_ROOT;?><?php echo $post_job1['company_logo']; ?>" class="img-responsive" alt="">
+									<?php } else {?>
+									<img src="<?php echo REC_IMAGES_ROOT;?>default_logo.jpg" class="img-responsive" alt="">
+									<?php } ?>
+								</div>
+								<div class="col-xs-12 col-sm-9 product_link_text">
+									<a href="#"><h3><?php echo $post_job1['job_title'];?></h3></a>
+									<p id="product_title"><?php echo $post_job1['company_name'];?></p>
+									<p id="product_title_second">Thorough knowledge in <?php echo $post_job1['skills'];?></p>
+									<?php if(!empty($_SESSION['recruiter_id'])) { ?>
+									<p id="product_details"><span><a href="<?php echo RECRUITERS;?>details.php?job_id=<?php echo $post_job1['post_job_id'];?>"><i class="fa fa-arrow-right"></i>&nbsp;&nbsp; Details</a></span></p>
+									<?php } else { ?>
+									<p id="product_details"><span><a href="<?php echo JOB_SEEKER;?>details.php?job_id=<?php echo $post_job1['post_job_id'];?>"><i class="fa fa-arrow-right"></i>&nbsp;&nbsp; Details</a></span></p>
+									<?php } ?>
+									<div class="pull-right three_list">
+										<ul class="list-inline">
+											<li>
+												<a href="#"><i class="fa fa-clock-o"></i>&nbsp;&nbsp;
+													<?php 
+														$d1 = date_format(date_create($post_job1['job_post_date']), "Y/m/d");
+														$d2 = date_format(date_create(CURR_DATE), "Y/m/d");
+														echo round(abs(strtotime($d1)-strtotime($d2))/86400)
+													?> days ago
+												</a>
+											</li>
+											<li><a href="#"><i class="fa fa-eye"></i>&nbsp;&nbsp; <?php echo $post_job1['job_views']?></a></li>
+											<li><a href="##" id="<?php echo $post_job['post_job_id'];?>" class='like_link'><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp; <span id="like_count"><?php echo $like['job_likes'];?></span></a></li>
+											<div class="fb-like" data-href="http://www.yehjob.com" data-width="5px" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+										</ul>
+									</div>
+								</div>
+							</div>
+							
+
+
+<?php }
+
+if ($last_id != 0) 
+{
+	echo '<script type="text/javascript">var last_id = '.$last_id.';</script>';
+}
+
+// sleep for 1 second to see loader, it must be deleted in prodection
+//sleep(1);
+?>
+
+

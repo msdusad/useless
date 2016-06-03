@@ -1,0 +1,43 @@
+[09-Dec-2015 11:12:48 UTC] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/yehjob/public_html/linkedin/linkedin_login.php on line 4
+[09-Dec-2015 11:12:48 UTC] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/yehjob/public_html/linkedin/linkedin_login.php on line 4
+[09-Dec-2015 11:14:03 UTC] PHP Warning:  require(config.php): failed to open stream: No such file or directory in /home/yehjob/public_html/linkedin/linkedin_login.php on line 4
+[09-Dec-2015 11:14:03 UTC] PHP Fatal error:  require(): Failed opening required 'config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/yehjob/public_html/linkedin/linkedin_login.php on line 4
+[09-Dec-2015 11:19:21 UTC] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/yehjob/public_html/linkedin/linkedin_login.php on line 74
+[09-Dec-2015 16:52:13 Asia/Calcutta] PHP Fatal error:  Call to a member function getResult() on a non-object in /home/yehjob/public_html/linkedin/linkedin_login.php on line 56
+[09-Dec-2015 16:55:54 Asia/Calcutta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 45
+[09-Dec-2015 16:55:54 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yehjob/public_html/include/config.php:45) in /home/yehjob/public_html/linkedin/linkedin_login.php on line 82
+[09-Dec-2015 17:01:34 Asia/Calcutta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 45
+[09-Dec-2015 17:02:44 Asia/Calcutta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 45
+[09-Dec-2015 17:03:53 Asia/Calcutta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 45
+[09-Dec-2015 17:04:06 Asia/Calcutta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 45
+[09-Dec-2015 17:11:23 Asia/Calcutta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 45
+[09-Dec-2015 17:11:36 Asia/Calcutta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 45
+[09-Dec-2015 17:12:29 Asia/Calcutta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 45
+[09-Dec-2015 11:51:40 UTC] PHP Parse error:  syntax error, unexpected '$user' (T_VARIABLE) in /home/yehjob/public_html/linkedin/linkedin_login.php on line 58
+[09-Dec-2015 11:52:05 UTC] PHP Parse error:  syntax error, unexpected '$user' (T_VARIABLE) in /home/yehjob/public_html/linkedin/linkedin_login.php on line 58
+[09-Dec-2015 11:52:13 UTC] PHP Parse error:  syntax error, unexpected '$user' (T_VARIABLE) in /home/yehjob/public_html/linkedin/linkedin_login.php on line 58
+[09-Dec-2015 18:13:03 Asia/Calcutta] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 45
+[09-Dec-2015 18:13:03 Asia/Calcutta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/yehjob/public_html/linkedin/linkedin_login.php:54) in /home/yehjob/public_html/linkedin/linkedin_login.php on line 84
+[10-Dec-2015 10:39:44 Asia/Calcutta] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 33
+[10-Dec-2015 10:40:15 Asia/Calcutta] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 33
+[10-Dec-2015 10:40:26 Asia/Calcutta] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 33
+[10-Dec-2015 10:49:52 Asia/Calcutta] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 33
+[10-Dec-2015 10:49:57 Asia/Calcutta] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 33
+[10-Dec-2015 10:54:28 Asia/Calcutta] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 33
+[10-Dec-2015 10:54:45 Asia/Calcutta] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 33
+[10-Dec-2015 10:55:25 Asia/Calcutta] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 33
+[10-Dec-2015 10:56:28 Asia/Calcutta] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 33
+[10-Dec-2015 10:57:03 Asia/Calcutta] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 33
+[10-Dec-2015 10:57:15 Asia/Calcutta] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 33
+[10-Dec-2015 11:03:04 Asia/Calcutta] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 33
+[10-Dec-2015 11:13:12 Asia/Calcutta] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 33
+[10-Dec-2015 11:15:53 Asia/Calcutta] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 33
+[10-Dec-2015 11:17:04 Asia/Calcutta] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 33
+[10-Dec-2015 11:21:47 Asia/Calcutta] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 33
+[10-Dec-2015 11:22:58 Asia/Calcutta] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 33
+[10-Dec-2015 11:26:20 Asia/Calcutta] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 33
+[10-Dec-2015 11:32:11 Asia/Calcutta] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 33
+[10-Dec-2015 11:36:21 Asia/Calcutta] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 33
+[10-Dec-2015 11:37:20 Asia/Calcutta] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 33
+[10-Dec-2015 11:42:51 Asia/Calcutta] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 33
+[10-Dec-2015 11:44:48 Asia/Calcutta] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/yehjob/public_html/include/config.php on line 33

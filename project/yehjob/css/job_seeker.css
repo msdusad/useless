@@ -1,0 +1,20 @@
+@import url("../css/bootstrap.min.css");
+@import url("../css/bootstrap.css");
+@import url("../css/font-awesome.css");
+@import url("../css/font-awesome.min.css");
+@import url("../css/reset.css");
+@import url("../css/style.css");
+
+.tab_text_outer
+{
+	padding-top: 10px;
+	width: 100%;
+	float: left; 
+}
+.job_img img
+{
+	width: 200px;
+	height: 200px;
+	margin-left: 120px;
+	border: 2px solid #ddd;
+}

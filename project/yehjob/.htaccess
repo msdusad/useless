@@ -1,0 +1,11 @@
+Options +FollowSymLinks -MultiViews
+RewriteEngine on
+RewriteCond %{REQUEST_URI} /(.*)/
+RewriteRule job_seeker/details/job_id/(.*) job_seeker/details.php?job_id=$1 [L]
+RewriteRule recruiters/details/job_id/(.*) recruiters/details.php?job_id=$1 [L]
+RewriteRule before_login/job_id/(.*)/ before_login.php?job_id=$1 [L]
+RewriteRule search_job/id/(.*) search_job.php?id=$1 [L]
+RewriteRule search_job/location/(.*) search_job.php?location=$1 [L]
+RewriteRule search_job/cname/(.*) search_job.php?cname=$1 [L]
+
+RewriteRule privacy_policy/(.*) pp.php[L];
